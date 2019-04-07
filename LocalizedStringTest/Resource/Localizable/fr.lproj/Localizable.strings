@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  LocalizedStringTest
+
+  Created by Menahem Barouk on 04/04/2019.
+  Copyright © 2019 Menahem Barouk. All rights reserved.
+*/
+
+// User Page
+"profile_page_title" = "Profile de %@";
+"profile_page_number_of_followers" = "vous êtes suivis par %02d personnes et vous suivez %02d personnes";
+"profile_page_settinge" = "Paramètres";
+"profile_page_edit_profile" = "Editer le profil";
+
+// Settings Page
+"settings_page_title" = "Paramètres";
+"settings_page_notification" = "Notification";
+"settings_page_send_comments" = "Envoyer des commentaires";

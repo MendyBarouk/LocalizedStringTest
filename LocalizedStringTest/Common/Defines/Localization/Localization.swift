@@ -12,7 +12,7 @@ import Foundation
 struct Localization {
     private init() {}
     
-    enum User: Localizable {
+    enum Profile: Localizable {
         
         case title(username: String)
         case numberFollowers(followers: Int, follows: Int)
@@ -24,10 +24,10 @@ struct Localization {
             let key: String
             
             switch self {
-            case .title          : key = "user_page_title"
-            case .numberFollowers: key = "user_page_number_of_followers"
-            case .settings       : key = "user_page_settinge"
-            case .editProfile    : key = "user_page_edit_profile"
+            case .title          : key = "profile_page_title"
+            case .numberFollowers: key = "profile_page_number_of_followers"
+            case .settings       : key = "profile_page_settinge"
+            case .editProfile    : key = "profile_page_edit_profile"
             }
             
             return key
